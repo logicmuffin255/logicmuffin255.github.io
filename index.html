@@ -2,13 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=/dist/landing-page/browser/index.html" />
   <title>Landing Page</title>
-  <script type="text/javascript">
-    window.location.href = "/dist/landing-page/browser/index.html"
-  </script>
+  <style>
+    body{
+      margin: 0; /* Remove default margin */
+    }
+    iframe{
+      display: block;  /* iframes are inline by default */
+      height: 100vh;  /* Set height to 100% of the viewport height */
+      width: 100vw;  /* Set width to 100% of the viewport width */
+      border: none; /* Remove default border */
+      background: lightyellow; /* Just for styling */
+    }
+  </style>
 </head>
 <body>
-  If you are not redirected automatically, follow this <a href='dist/landing-page/browser/index.html'>link.</a>.
+<iframe src="dist/landing-page/browser/index.html"></iframe>
 </body>
 </html>
