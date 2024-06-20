@@ -12,3 +12,11 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+@media print {
+  .container {
+    max-width: 100% !important;
+  }
+
+  .page-break {page-break-before: always;}
+}
