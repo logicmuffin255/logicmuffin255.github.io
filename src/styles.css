@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0; /* Remove default margin */
+  background: #f5f5f5 !important;
+}
+
+iframe {
+  display: block;  /* iframes are inline by default */
+  height: 100vh;  /* Set height to 100% of the viewport height */
+  width: 100vw;  /* Set width to 100% of the viewport width */
+  border: none; /* Remove default border */
+}
